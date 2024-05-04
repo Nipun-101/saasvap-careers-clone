@@ -1,12 +1,12 @@
 const BenefitsCard = ({title,details,imgSrc}) => {
     return(
-        <div class="benefits-card-wrap">
-        <div class="card-body">
-          <h5 class="card-title">
-            <img src={imgSrc} class="card-img" alt={title}/>
+        <div className="benefits-card-wrap">
+        <div className="card-body">
+          <h5 className="card-title">
+            <img src={imgSrc} className="card-img" alt={title}/>
             {title}
           </h5>
-          <p class="card-text">{details}</p>
+          <p className="card-text">{details}</p>
         </div>
       </div>
     )
