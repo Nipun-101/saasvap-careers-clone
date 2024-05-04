@@ -1,4 +1,3 @@
-import { Button } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 
 const responsive = {
