@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Simplon Norm;
+  line-height: 1.5rem;
+  @media ($upto-small) {
+    font-size: 14px;
+  }
+}
+.container-main{
+  padding: 0 6rem;
+  @media($upto-small){
+    margin-top: 133px;
+    padding: 0 1rem;
+  }
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}

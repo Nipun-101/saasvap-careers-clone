@@ -1,0 +1,82 @@
+.footer-main{
+    background: #233645;
+    padding: 30px 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d0d0d0;
+    font-size: 14px;
+    @media($upto-small){
+        padding: 8px 16px;
+      }
+    .footer-client-logo-wrap{
+        max-width: 1200px; 
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .footer-final{
+        max-width: 1200px; 
+        align-items: left;
+        h4{
+            color: #fff;
+            font-family: Cabin;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 30px;
+            padding-top: 50px;
+            text-transform: uppercase;
+        }
+        p{
+            color: #d0d0d0;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        ul{
+            color: #d0d0d0;
+            list-style-type: none;
+            margin-left: -32px;
+            margin-top: 30px;
+            li{
+                font-size: 14px;
+                padding-bottom: 5px;
+            }
+        }
+        .footer-logo{
+            height: 27px;
+            margin-top: 30px;
+            width: auto;
+        }
+        .Saasvap-India{
+            margin-top: 10px;
+        }
+        .textwidget {
+            margin-top: 30px;
+        }
+        .hyperlink-footer{
+            color: #d0d0d0;
+        }
+        
+    }
+    
+
+}
+
+.copy-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #152938;
+    width: 100%;
+    p{
+        color: #b5c5d0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 0;
+    }
+   
+}
+

@@ -1,0 +1,35 @@
+@mixin dflex($flex-type, $align, $justify) {
+  display: $flex-type;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: wrap;
+}
+@mixin position($position, $top, $right, $bottom, $left, $index) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  z-index: $index;
+}
+@mixin fontSpecs($size, $weight, $color, $height, $case) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $height;
+  text-transform: $case;
+}
+@mixin fontResponsive($size, $height) {
+  font-size: $size;
+  line-height: $height;
+}
+@mixin textFonts($weight, $height, $case) {
+  font-weight: $weight;
+  line-height: $height;
+  text-transform: $case;
+}
+@mixin backgroundSpecs($url, $repeat, $size, $position) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  background-size: $size;
+}

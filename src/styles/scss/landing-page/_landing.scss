@@ -1,0 +1,282 @@
+.life-saasvaap-wrap{
+    padding: 70px 144px;
+    display: flex;
+    justify-content: center;
+    @media($upto-small){
+        justify-content: center;
+        padding: 8px 16px;
+      }
+    .life-at-section{
+        max-width: 1200px; 
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        h4{
+            color: #000;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 37px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            text-align: left;
+        }
+        p{
+            color: #9f9ea6;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+        
+    }
+    .img-fluid{
+        max-width: 100%;
+        height: auto;
+    }    
+}
+
+.benefits-wrap{
+    background: #f7f7f9;
+    padding: 50px 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media($upto-small){
+        justify-content: center;
+        padding: 8px 16px;
+      }
+    
+    .benifit-headings{
+        text-align: center;
+        h4{
+            color: #000;
+            font-family: Helvetica;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 34px;
+            padding-bottom: 16px;
+            text-align: center;
+        } 
+        p{
+            color: #ababab;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+            padding: 20px 20px 50px;
+        }
+    }
+    .benefit-cards-wrap{
+        max-width: 1200px; 
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+.benefits-card-wrap{
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px hsla(0,0%,40%,.25);
+    height: 250px;
+    min-width: 270px;
+    margin-bottom: 20px;
+    .card-body{
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+        .card-title{
+            margin-bottom: 0.75rem;
+            color: #1f526c;
+            font-family: Helvetica;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 21px;
+        }
+        .card-text{
+            color: #9f9ea6;
+            font-family: Helvetica;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+            text-align: justify;
+        }
+        .card-img{
+            padding: 20px;
+            width: 82px;
+        }
+    }
+}
+
+.openings-wrap{
+    background: #ffff;
+    padding: 50px 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media($upto-small){
+        justify-content: center;
+        padding: 8px 16px;
+      }
+      .openings-headings{
+        text-align: center;
+        h4{
+            color: #000;
+            font-family: Helvetica;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 34px;
+            padding-bottom: 0px;
+            text-align: center;
+        } 
+        p{
+            color: #ababab;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+            padding: 20px 20px 50px;
+        }
+    }
+    .carousel-container{
+        max-width: 1200px; 
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        .carousel-card-opening{
+            width: 250px;
+            border: none;
+            text-align: center;
+            .card-body{
+                background: #f8f9fb;
+                border-radius: 20px;
+                padding-top: 30px;
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+                padding: 1.25rem;
+                h5{
+                    font-family: Helvetica;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 22px;
+                    color: #1f526c;
+                    font-size: 19px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    color: #9f9ea6;
+                    font-family: Helvetica;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 17px;
+                }
+                .css-1u94d1f {
+                    user-select: none;
+                    width: 1em;
+                    height: 1em;
+                    display: inline-block;
+                    fill: currentcolor;
+                    flex-shrink: 0;
+                    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    font-size: 1.25rem;
+                    color: rgb(55 173 157 / 99%);
+                }
+            }
+        }
+
+    }
+    .current-openings-button-wrapper{
+        margin-top: 43px;
+        text-align: center;
+    }
+    
+}
+
+.btn-common{
+    min-width: 100px;
+    min-height: 30px;
+    text-transform: none;
+    color: white;
+    background-color: rgb(54, 171, 155);
+    text-decoration: none ;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px ;
+    border: 0px;
+    margin: 0px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+}
+.btn-common:hover{
+    
+        text-decoration: none;
+        background-color: rgb(37, 119, 108);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.final-section-wrap{
+    background: #ecedee;
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media($upto-small){
+        justify-content: center;
+        padding: 8px 16px;
+      }
+    .final-section-text{
+        color: #ababab;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        padding-top: 70px;
+        text-align: center;
+    }
+    .final-section{
+        max-width: 1200px; 
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .experience{
+        background: #fff;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h4{
+        color: #1f526c;
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: center; 
+    }
+}
+
